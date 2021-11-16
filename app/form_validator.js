@@ -4,6 +4,8 @@ function isValidCommaDelimitedList(value) {
   return commaDelimitedListRegEx.test(value);
 }
 
+// Test Buddy!
+
 function isValidTagmode(value) {
   return value === 'all' || value === 'any';
 }
